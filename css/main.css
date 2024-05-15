@@ -1307,7 +1307,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #98cbff;
+    background: #1f8ab6;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2252,6 +2252,55 @@ pre code {
     transform: rotateZ(-30deg);
   }
 }
+.followme {
+  color: #bbb;
+  padding: 1em 1.5em;
+  text-align: center;
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  margin: 1em 0 0;
+}
+.followme .social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.followme .social-list .social-item {
+  margin: 0.5em 2em;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .followme .social-list .social-item {
+    margin: 0.5em 0.75em;
+  }
+}
+.followme .social-list .social-link {
+  border: 0;
+  display: block;
+}
+.followme .social-list .social-link .icon {
+  font-size: 1.75em;
+}
+.followme .social-list .social-link .label {
+  display: block;
+  font-size: 14px;
+}
+.followme .social-list .social-link:hover + .social-item-img {
+  display: block;
+}
+.followme .social-list span.social-link {
+  color: var(--link-color);
+}
+.followme .social-list span.social-link:hover {
+  color: var(--link-hover-color);
+}
+.followme .social-list .social-item-img {
+  display: none;
+  left: 50%;
+  max-width: 180px;
+  position: absolute;
+  transform: translate(-50%, 20px);
+}
 .category-all-page .category-all-title {
   text-align: center;
 }
@@ -2555,7 +2604,7 @@ mark.search-keyword {
 }
 header.header {
   background: var(--content-bg-color);
-  border-radius: 0px 0px 16px 16px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: initial;
 }
 @media (max-width: 991px) {
@@ -2592,7 +2641,7 @@ header.header {
   }
 }
 .main-inner {
-  border-radius: 0px 0px 16px 16px;
+  border-radius: 20px 20px 20px 20px;
   box-sizing: border-box;
   width: calc(100% - 252px);
 }
@@ -2727,7 +2776,7 @@ header.header {
   }
   .sidebar-inner {
     background: var(--content-bg-color);
-    border-radius: 16px;
+    border-radius: 20px;
     box-shadow: initial;
     box-sizing: border-box;
     color: var(--text-color);
@@ -2859,4 +2908,11 @@ body {
 .post-body p a:hover {
   color: #0477ab;
   text-decoration: underline;
+}
+.posts-expand .post-eof {
+  display: block;
+  width: 80%;
+  height: 2px;
+  background: #ccc;
+  text-align: center;
 }
