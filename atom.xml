@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-05-16T05:34:57.762Z</updated>
+  <updated>2024-05-16T14:37:11.560Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,14 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Extended Kalman Filter</title>
+    <title>6-DOF IMU Estimation Based on EKF</title>
     <link href="http://example.com/2024/05/16/Extended-Kalman-Filter/"/>
     <id>http://example.com/2024/05/16/Extended-Kalman-Filter/</id>
     <published>2024-05-16T04:19:02.000Z</published>
-    <updated>2024-05-16T05:34:57.762Z</updated>
+    <updated>2024-05-16T14:37:11.560Z</updated>
     
     
-    <summary type="html">Solve the 6-axis IMU data using EKF</summary>
+    <summary type="html">6-DOF Inertial Measurement Units Estimation Based on Extended Kalman Filtering</summary>
     
     
     
@@ -55,16 +55,10 @@
     <link href="http://example.com/2024/05/14/hello-world/"/>
     <id>http://example.com/2024/05/14/hello-world/</id>
     <published>2024-05-14T12:46:40.470Z</published>
-    <updated>2024-05-15T13:39:41.103Z</updated>
+    <updated>2024-05-16T14:37:43.368Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">Hello World</summary>
     
     
     
