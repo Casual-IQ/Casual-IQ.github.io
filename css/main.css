@@ -1307,7 +1307,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #1f8ab6;
+    background: #ff9a7a;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2863,11 +2863,13 @@ header.header {
   }
 }
 body {
-  background: url("/images/background1.avif");
+  background: url("/images/background1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  color: #000;
+  font-family: Arial;
 }
 .main-inner > .sub-menu,
 .main-inner > .post-block,
@@ -2875,9 +2877,6 @@ body {
 .main-inner > .comments,
 .main-inner > .pagination {
   background: rgba(245,245,245,0.8);
-}
-body {
-  color: #000;
 }
 .posts-expand .post-title-link {
   color: #000;
@@ -2900,6 +2899,8 @@ body {
 }
 .post-body {
   padding: 20px;
+  border-radius: 16px;
+  border-radius-inner: 16px;
 }
 .post-body p a {
   color: #0593d3;
