@@ -1307,7 +1307,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #855e8c;
+    background: #ffa14a;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2870,7 +2870,7 @@ header.header {
   }
 }
 body {
-  background: url("/images/background1.png");
+  background: url("/images/background1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -2921,6 +2921,14 @@ body {
   height: 2px;
   background: #ccc;
   text-align: center;
+}
+.read-more {
+  border-radius: 15px; /* 调整圆角半径 */
+  padding: 10px 20px; /* 调整内边距 */
+  background-color: #007bff; /* 按钮背景颜色 */
+  color: #fff; /* 按钮文字颜色 */
+  text-decoration: none; /* 去掉下划线 */
+  display: inline-block; /* 使按钮显示为块级元素 */
 }
 .katex-html {
   display: none;
